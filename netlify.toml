@@ -1,0 +1,14 @@
+[[headers]]
+  for = "/lib/book/travesias-misticas.pdf"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/lib/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/lib/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
